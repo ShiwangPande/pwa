@@ -72,16 +72,15 @@ const CoursePage = () => {
                         onEnded={handleVideoComplete}
                     />
                 </div>
-                <div className='flex flex-col gap-2 justify-center items-center'>
 
 
 
-                    <a href="https://www.hkf.ind.in/">  <button className="bg-rose-300 hover:bg-rose-500 text-xs text-white  py-2 px-4 rounded mx-2 my-5 m-auto">
-                        Hope foundation provides stitching courses to underprivileged women. help them by donating
-                    </button>
-                    </a>
 
-                </div>
+                <a href="https://www.hkf.ind.in/">  <button className="bg-rose-300 hover:bg-rose-500 text-xs text-white  py-2 px-4 rounded mx-2 my-5 m-auto">
+                    Hope foundation provides stitching courses to underprivileged women. help them by donating
+                </button>
+                </a>
+
             </div>
             {videoCompleted && (
                 <><Confetti />
