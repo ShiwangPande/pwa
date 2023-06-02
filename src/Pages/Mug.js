@@ -37,12 +37,12 @@ https://isankalpa.org/  */}
                 onEnded={handleVideoComplete}
             />
             <div className='flex flex-col gap-2 justify-center items-center'>
-                <p className='mx-5 text-l font-bold my-5 normal-case italic'>
+                <p className='mx-5 text-xs  my-5 normal-case italic'>
                     Ishwar Sankalpa provides vocational education to its students and sells products made by them. Support them by donating
 
                 </p>
                 <a href="https://isankalpa.org/">    <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-5 m-auto">
-                    Donate for Child
+                    Donate
                 </button></a>
             </div>
             {videoCompleted && (
