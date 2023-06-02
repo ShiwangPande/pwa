@@ -24,10 +24,12 @@ const CoursePage = () => {
             </div>
             <h1 className='text-center text-2xl font-bold my-5 text-rose-300 '>  Welcome to Basics of Makeup</h1>
             {/* watch below video to get certificate  */}
-           
 
+            <div className=' text-center my-20 text-4xl  capitalize font-bold '>
+                comming soon
+            </div>
 
-            <ReactPlayer className='course_video '
+            {/* <ReactPlayer className='course_video '
                 width="90%"
                 height="30rem"
                 url="https://www.youtube.com/embed/f2kvQtHOG24"
@@ -66,7 +68,7 @@ const CoursePage = () => {
                     </div>
 
                 </>
-            )}
+            )} */}
 
             {/* Add this line to the root component to initialize the toast container */}
         </div>

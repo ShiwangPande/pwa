@@ -36,7 +36,7 @@ https://isankalpa.org/  */}
                 controls
                 onEnded={handleVideoComplete}
             />
-            <div className='flex flex-col gap-2'>
+            <div className='flex flex-col gap-2 justify-center items-center'>
                 <p className='mx-5 text-l font-bold my-5 normal-case italic'>
                     "Ishwar Sankalpa provides vocational education to its students and sells products made by them. Support them by donating"
 

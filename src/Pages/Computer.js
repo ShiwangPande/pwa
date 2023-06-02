@@ -34,7 +34,7 @@ const CoursePage = () => {
                 onEnded={handleVideoComplete}
             />
 
-            <div className='flex flex-col gap-2'>
+<div className='flex flex-col gap-2 justify-center items-center'>
                 <p className='mx-5 text-l font-bold my-5 normal-case italic'>"Unmish has computer training courses for special children. Support them by donating"
                     "Hope foundation provides stitching courses to underprivileged women. help them by donating"
                 </p>
