@@ -21,7 +21,7 @@ const CoursePage = () => {
             <div className='flex justify-center'>
                 <img className='h-20 w-20' src={photo} alt="logo" />
             </div>
-            <h1 className='text-center text-2xl font-bold my-5 text-rose-300'>  Welcome to Basics of stitching Course</h1>
+            <h1 className='text-center text-2xl font-bold my-5 text-rose-300'>  Welcome to Basics of Photography</h1>
             {/* watch below video to get certificate  */}
             <p className='mx-5 text-l font-bold my-5 underline'>Watch below video to get Certificate:</p>
 
