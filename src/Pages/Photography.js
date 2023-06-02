@@ -24,7 +24,7 @@ const CoursePage = () => {
             <h1 className='text-center text-2xl font-bold my-5 text-rose-300'>  Welcome to Basics of Photography</h1>
 
             <div className=' text-center my-20 text-4xl  capitalize font-bold '>
-                comming soon
+                coming soon
             </div>
             {/* 
 

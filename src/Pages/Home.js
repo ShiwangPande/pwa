@@ -177,7 +177,7 @@ function Home() {
                 Get Started with Computers Today
               </Text>
               <Text h3 color="white">
-                Take Control of Your Future
+                Take control of your future
               </Text>
             </Col>
           </Card.Header>

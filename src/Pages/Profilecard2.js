@@ -22,7 +22,7 @@ export default function Profilecard2() {
                     src={nogo9}
                     alt=""
                 />
-                <div class="flex flex-col justify-between p-4 leading-normal">
+                <d class="flex flex-col justify-between p-4 leading-normal">
 
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                         <span className="text-rose-300 "> Ekaansh </span> is a non-profit organization started by Devyanee Dalmia
@@ -101,7 +101,7 @@ export default function Profilecard2() {
                             </Modal>
                         </div>
                     </div>
-                </div>
+                </d>
             </div>
         </div>
     );

@@ -21,7 +21,7 @@ const CoursePage = () => {
             <div className='flex justify-center'>
                 <img className='h-20 w-20' src={stiching} alt="logo" />
             </div>
-            <h1 className='text-center text-2xl font-bold my-5 text-rose-300'>  Welcome to Basics of stitching Course</h1>
+            <h1 className='text-center text-2xl font-bold my-5 text-rose-300'>  Welcome to Basics of Stitching Course</h1>
             {/* watch below video to get certificate  */}
 
 
@@ -74,10 +74,10 @@ const CoursePage = () => {
                 </div>
                 <div className='flex flex-col gap-2 justify-center items-center'>
                     <p className='mx-5 text-l font-bold my-5 normal-case italic'>
-                        "Hope foundation provides stitching courses to underprivileged women. help them by donating"
+                        Hope foundation provides stitching courses to underprivileged women. help them by donating
                     </p>
                     <a href="https://www.hkf.ind.in/">  <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-5 m-auto">
-                        Donate for Child
+                        Donate
                     </button>
                     </a>
                 </div>

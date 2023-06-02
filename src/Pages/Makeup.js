@@ -26,7 +26,7 @@ const CoursePage = () => {
             {/* watch below video to get certificate  */}
 
             <div className=' text-center my-20 text-4xl  capitalize font-bold '>
-                comming soon
+                coming soon
             </div>
 
             {/* <ReactPlayer className='course_video '

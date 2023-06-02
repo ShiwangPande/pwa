@@ -35,11 +35,11 @@ const CoursePage = () => {
             />
 
 <div className='flex flex-col gap-2 justify-center items-center'>
-                <p className='mx-5 text-l font-bold my-5 normal-case italic'>"Unmish has computer training courses for special children. Support them by donating"
-                    "Hope foundation provides stitching courses to underprivileged women. help them by donating"
+                <p className='mx-5 text-l font-bold my-5 normal-case italic'>Unmish has computer training courses for special children. Support them by donating"
+                    Hope foundation provides stitching courses to underprivileged women. help them by donating
                 </p>
                 <a href="https://www.unmish.org/about-us/donations/">  <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-5 m-auto">
-                    Donate for Child
+                    Donate
                 </button></a>
             </div>
             {videoCompleted && (

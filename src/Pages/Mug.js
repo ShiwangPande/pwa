@@ -21,7 +21,7 @@ const CoursePage = () => {
             <div className='flex justify-center'>
                 <img className='h-20 w-48' src={mug} alt="logo" />
             </div>
-            <h1 className=' text-center text-2xl md:text-xl font-bold my-5  text-rose-300'>  Welcome to Basics of Mug press</h1>
+            <h1 className=' text-center text-2xl md:text-xl font-bold my-5  text-rose-300'>  Welcome to Basics of Mug Press</h1>
             {/* watch below video to get certificate  */}
 
             {/* google form for stitching:
@@ -38,7 +38,7 @@ https://isankalpa.org/  */}
             />
             <div className='flex flex-col gap-2 justify-center items-center'>
                 <p className='mx-5 text-l font-bold my-5 normal-case italic'>
-                    "Ishwar Sankalpa provides vocational education to its students and sells products made by them. Support them by donating"
+                    Ishwar Sankalpa provides vocational education to its students and sells products made by them. Support them by donating
 
                 </p>
                 <a href="https://isankalpa.org/">    <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-5 m-auto">
