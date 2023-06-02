@@ -34,11 +34,12 @@ const CoursePage = () => {
                 onEnded={handleVideoComplete}
             />
 
-
-            <a href="https://www.hkf.ind.in/">  <button className="bg-rose-300 hover:bg-rose-500 text-xs text-white  py-2 px-4 rounded mx-2 my-5 m-auto">
-                Unmish has computer training courses for special children. Support them by donating"
-                Hope foundation provides stitching courses to underprivileged women. help them by donating
-            </button></a>
+            <div className='m-auto'>
+                <a href="https://www.hkf.ind.in/">  <button className="bg-rose-300 hover:bg-rose-500 text-xs text-white  py-2 px-4 rounded mx-2 my-5 m-auto">
+                    Unmish has computer training courses for special children. Support them by donating"
+                    Hope foundation provides stitching courses to underprivileged women. help them by donating
+                </button></a>
+            </div>
 
             {videoCompleted && (
                 <><Confetti />
