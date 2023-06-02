@@ -23,7 +23,7 @@ const CoursePage = () => {
             </div>
             <h1 className=' text-center text-2xl md:text-xl font-bold my-5  text-rose-300'>  Welcome to Basics of Mug press</h1>
             {/* watch below video to get certificate  */}
-            <p className='mx-5 text-l font-bold my-5 underline'>Watch below video to get Certificate:</p>
+           
 
 
             <ReactPlayer className='course_video '

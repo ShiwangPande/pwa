@@ -23,16 +23,55 @@ const CoursePage = () => {
             </div>
             <h1 className='text-center text-2xl font-bold my-5 text-rose-300'>  Welcome to Basics of stitching Course</h1>
             {/* watch below video to get certificate  */}
-            <p className='mx-5 text-l font-bold my-5 underline'>Watch below video to get Certificate:</p>
+           
+
+            <div className='flex flex-col gap-12'>
+                {/* lecture 1 */}
+
+                <div className='flex flex-col gap-2'>
+                    <p className='mx-5 text-l font-bold my-5 underline'>Lecture 1:</p>
+                    <ReactPlayer className='course_video'
+                        width="90%"
+                        height="30rem"
+                        url="https://www.youtube.com/embed/QUxWf01anoQ"
+                        controls
+
+                    />
+                </div>
 
 
-            <ReactPlayer className='course_video'
-                width="90%"
-                height="30rem"
-                url="https://www.youtube.com/embed/f2kvQtHOG24"
-                controls
-                onEnded={handleVideoComplete}
-            />
+                <div className='flex flex-col gap-2'>
+                    <p className='mx-5 text-l font-bold my-5 underline'>Lecture 2:</p>
+                    <ReactPlayer className='course_video'
+                        width="90%"
+                        height="30rem"
+                        url="https://www.youtube.com/embed/JJ7SUSb7KWU"
+                        controls
+
+                    />
+                </div>
+
+                <div className='flex flex-col gap-2'>
+                    <p className='mx-5 text-l font-bold my-5 underline'>Lecture 3:</p>
+                    <ReactPlayer className='course_video'
+                        width="90%"
+                        height="30rem"
+                        url="https://www.youtube.com/embed/f2kvQtHOG24"
+                        controls
+
+                    />
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <p className='mx-5 text-l font-bold my-5 underline'>Lecture 4:</p>
+                    <ReactPlayer className='course_video'
+                        width="90%"
+                        height="30rem"
+                        url="https://www.youtube.com/embed/f2kvQtHOG24"
+                        controls
+                        onEnded={handleVideoComplete}
+                    />
+                </div>
+            </div>
             {videoCompleted && (
                 <><Confetti />
 
