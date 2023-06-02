@@ -23,16 +23,47 @@ const CoursePage = () => {
             </div>
             <h1 className='text-center text-2xl font-bold my-5 text-rose-300'>  Welcome to  Basics of Excel</h1>
             {/* watch below video to get certificate  */}
+            <div className='flex flex-col gap-12'>
+                {/* lecture 1 */}
+
+                <div className='flex flex-col gap-2'>
+                    <p className='mx-5 text-l font-bold my-5 underline'>Basics of Excel video 1: "Components of Microsoft Excel"</p>
+                    <ReactPlayer className='course_video'
+                        width="90%"
+                        height="30rem"
+                        url="https://www.youtube.com/embed/vHYf6qKAdNs"
+                        controls
+
+                    />
+
+                </div>
 
 
-
-            <ReactPlayer className='course_video '
+                <div className='flex flex-col gap-2'>
+                    <p className='mx-5 text-l font-bold my-5 underline'>Basics of Excel video 2: "Navigating Microsoft Excel"</p>
+                    <ReactPlayer className='course_video '
                 width="90%"
                 height="30rem"
-                url="https://www.youtube.com/embed/f2kvQtHOG24"
+                url="https://www.youtube.com/embed/zu0494Exe6c"
                 controls
                 onEnded={handleVideoComplete}
             />
+                </div>
+
+
+
+
+                <div className='m-auto flex items-center justify-center'>
+                    <a href="https://www.hkf.ind.in/">  <button className="bg-rose-300 hover:bg-rose-500 text-[10px] text-white  p-1 rounded mx-2 my-5 m-auto">
+                        Hope foundation provides stitching courses to underprivileged women. help them by donating
+                    </button>
+                    </a>
+                </div>
+
+            </div>
+
+
+     
 
             <div className='m-auto flex items-center justify-center'>
                 <a href="https://www.hkf.ind.in/"> <button className="bg-rose-300 hover:bg-rose-500 text-[8px] text-white  p-1 rounded mx-2 my-5 m-auto">
