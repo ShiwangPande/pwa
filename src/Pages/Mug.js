@@ -21,14 +21,14 @@ const CoursePage = () => {
             <div className='flex justify-center'>
                 <img className='h-20 w-48' src={mug} alt="logo" />
             </div>
-            <h1 className=' text-center text-2xl font-bold my-5  text-rose-300'>  Welcome to Basics of stitching Course</h1>
+            <h1 className=' text-center text-2xl md:text-xl font-bold my-5  text-rose-300'>  Welcome to Basics of Mug press</h1>
             {/* watch below video to get certificate  */}
             <p className='mx-5 text-l font-bold my-5 underline'>Watch below video to get Certificate:</p>
 
 
             <ReactPlayer className='course_video '
-             width="90%"
-             height="30rem"
+                width="90%"
+                height="30rem"
                 url="https://www.youtube.com/embed/wvXNsjfvcSs"
                 controls
                 onEnded={handleVideoComplete}
