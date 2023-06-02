@@ -23,7 +23,7 @@ const CoursePage = () => {
             </div>
             <h1 className='text-center text-2xl font-bold my-5 text-rose-300'>  Welcome to Basics of stitching Course</h1>
             {/* watch below video to get certificate  */}
-           
+
 
             <div className='flex flex-col gap-12'>
                 {/* lecture 1 */}
@@ -37,6 +37,7 @@ const CoursePage = () => {
                         controls
 
                     />
+
                 </div>
 
 
@@ -70,6 +71,15 @@ const CoursePage = () => {
                         controls
                         onEnded={handleVideoComplete}
                     />
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <p className='mx-5 text-l font-bold my-5 normal-case italic'>
+                        "Hope foundation provides stitching courses to underprivileged women. help them by donating"
+                    </p>
+                    <a href="https://www.hkf.ind.in/">  <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-5 m-auto">
+                        Donate for Child
+                    </button>
+                    </a>
                 </div>
             </div>
             {videoCompleted && (

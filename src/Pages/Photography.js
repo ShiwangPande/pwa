@@ -33,6 +33,14 @@ const CoursePage = () => {
                 controls
                 onEnded={handleVideoComplete}
             />
+              <div className='flex flex-col gap-2'>
+                    <p className='mx-5 text-l font-bold my-5 normal-case italic'>
+                        "Hope foundation provides stitching courses to underprivileged women. help them by donating"
+                    </p>
+                    <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-5 m-auto">
+                        Donate for Child
+                    </button>
+                </div>
             {videoCompleted && (
                 <><Confetti />
 

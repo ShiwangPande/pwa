@@ -23,8 +23,11 @@ const CoursePage = () => {
             </div>
             <h1 className=' text-center text-2xl md:text-xl font-bold my-5  text-rose-300'>  Welcome to Basics of Mug press</h1>
             {/* watch below video to get certificate  */}
-           
 
+            {/* google form for stitching:
+
+"Ishwar Sankalpa provides vocational education to its students and sells products made by them. Support them by donating"
+https://isankalpa.org/  */}
 
             <ReactPlayer className='course_video '
                 width="90%"
@@ -33,12 +36,21 @@ const CoursePage = () => {
                 controls
                 onEnded={handleVideoComplete}
             />
+            <div className='flex flex-col gap-2'>
+                <p className='mx-5 text-l font-bold my-5 normal-case italic'>
+                    "Ishwar Sankalpa provides vocational education to its students and sells products made by them. Support them by donating"
+
+                </p>
+                <a href="https://isankalpa.org/">    <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-5 m-auto">
+                    Donate for Child
+                </button></a>
+            </div>
             {videoCompleted && (
                 <><Confetti />
 
                     <div className='my-7 text-center'>
                         <p className='text-2xl'>Video completed! Click the button to Give Assessment.</p>
-                        <a href="https://example.com/assessment">  <button class="my-5 inline-flex px-5 py-3 text-lg text-center text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-800" >Assessment</button></a>
+                        <a href=" https://docs.google.com/forms/d/e/1FAIpQLSczgfR0FklWlMcesLGsqhf0ojZ05f2_6TIDjWjoaoAVOGKtCA/viewform?usp=sf_link">  <button class="my-5 inline-flex px-5 py-3 text-lg text-center text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-800" >Assessment</button></a>
 
                     </div>
                     <div id="toast-message-cta" class="w-full max-w-lg p-4  absolute top-48 lg:inset-x-[30rem] inset-x-[0rem] z-10 text-gray-500 bg-white rounded-lg shadow dark:bg-gray-800 dark:text-gray-400" role="alert">
@@ -47,7 +59,7 @@ const CoursePage = () => {
                             <div class="ml-3 font-sans">
                                 <span class="mb-3 text-xl font-semibold text-gray-900 dark:text-white">Congratulations!</span>
                                 <div class="my-2 text-base font-normal">You have completed this course and are now eligible to give the assessment and get a certificate.</div>
-                                <a href="https://example.com/assessment" class="inline-flex px-2.5 py-1.5 text-base font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-800">Click to give assessment</a>
+                                <a href=" https://docs.google.com/forms/d/e/1FAIpQLSczgfR0FklWlMcesLGsqhf0ojZ05f2_6TIDjWjoaoAVOGKtCA/viewform?usp=sf_link" class="inline-flex px-2.5 py-1.5 text-base font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-800">Click to give assessment</a>
                             </div>
                             <button type="button" class="ml-auto -mx-1.5 -my-1.5 bg-white text-gray-400 hover:text-gray-900 rounded-lg focus:ring-2 focus:ring-gray-300 p-1.5 hover:bg-gray-100 inline-flex h-8 w-8 dark:text-gray-500 dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700" data-dismiss-target="#toast-message-cta" aria-label="Close">
                                 <span class="sr-only">Close</span>
