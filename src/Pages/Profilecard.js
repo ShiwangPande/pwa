@@ -29,7 +29,7 @@ export default function Profilecard() {
                 />
                 <div class="flex flex-col justify-between p-4 leading-normal">
                     <p class="mb-3 text-gray-700 dark:text-gray-400">
-                        <span className="text-rose-300 font-semibold">
+                        <span className="text-rose-300 ">
                             {" "}
                             Devyanee Dalmia
                         </span>{" "}

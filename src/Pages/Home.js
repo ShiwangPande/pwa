@@ -23,7 +23,7 @@ function Home() {
                 Learn the basics of photography
               </Text>
               <Text h3 color="white">
-                Take your skills to the next level.
+                Take your skills to the next level
               </Text>
             </Col>
           </Card.Header>

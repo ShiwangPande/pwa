@@ -25,7 +25,7 @@ export default function Profilecard2() {
                 <div class="flex flex-col justify-between p-4 leading-normal">
 
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                        <span className="text-rose-300 font-semibold"> Ekaansh </span> is a non-profit organization started by Devyanee Dalmia
+                        <span className="text-rose-300 "> Ekaansh </span> is a non-profit organization started by Devyanee Dalmia
                         that focuses on providing vocational and STEAM (Science,
                         Technology, Engineering, Arts, and Mathematics) education to
                         students. Their mission is to empower young individuals by
