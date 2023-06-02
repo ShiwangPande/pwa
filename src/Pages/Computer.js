@@ -37,17 +37,28 @@ const CoursePage = () => {
                     />
 
                 </div>
+                <div className='flex flex-col gap-2'>
+                    <p className='mx-5 text-l font-bold my-5 underline'>Basics of Excel video 3: "Microsoft Excel & Statistics</p>
+                    <ReactPlayer className='course_video'
+                        width="90%"
+                        height="30rem"
+                        url="https://www.youtube.com/embed/N2EvYxH31mo"
+                        controls
+
+                    />
+
+                </div>
 
 
                 <div className='flex flex-col gap-2'>
                     <p className='mx-5 text-l font-bold my-5 underline'>Basics of Excel video 2: "Navigating Microsoft Excel"</p>
                     <ReactPlayer className='course_video '
-                width="90%"
-                height="30rem"
-                url="https://www.youtube.com/embed/zu0494Exe6c"
-                controls
-                onEnded={handleVideoComplete}
-            />
+                        width="90%"
+                        height="30rem"
+                        url="https://www.youtube.com/embed/zu0494Exe6c"
+                        controls
+                        onEnded={handleVideoComplete}
+                    />
                 </div>
 
 
@@ -63,7 +74,7 @@ const CoursePage = () => {
             </div>
 
 
-     
+
 
             <div className='m-auto flex items-center justify-center'>
                 <a href="https://www.hkf.ind.in/"> <button className="bg-rose-300 hover:bg-rose-500 text-[8px] text-white  p-1 rounded mx-2 my-5 m-auto">
