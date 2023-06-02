@@ -38,7 +38,7 @@ const CoursePage = () => {
                 <p className='mx-5 text-xs font-bold my-5 normal-case italic'>Unmish has computer training courses for special children. Support them by donating"
                     Hope foundation provides stitching courses to underprivileged women. help them by donating
                 </p>
-                <a href="https://www.unmish.org/about-us/donations/">  <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-5 m-auto">
+                <a href="https://www.hkf.ind.in/">  <button className="bg-rose-300 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded my-5 m-auto">
                     Donate
                 </button></a>
             </div>

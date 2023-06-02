@@ -41,7 +41,7 @@ https://isankalpa.org/  */}
                     Ishwar Sankalpa provides vocational education to its students and sells products made by them. Support them by donating
 
                 </p>
-                <a href="https://isankalpa.org/">    <button className="bg-blue-500  hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-5 m-auto">
+                <a href="https://www.hkf.ind.in/">  <button className="bg-rose-300 hover:bg-rose-500 text-white font-bold py-2 px-4 rounded my-5 m-auto">
                     Donate
                 </button></a>
             </div>
