@@ -38,8 +38,8 @@ https://isankalpa.org/  */}
             />
 
 
-<div className='m-auto flex items-center justify-center'>
-                <a href="https://www.hkf.ind.in/">  <button className="bg-rose-300 hover:bg-rose-500 text-xs text-white  py-2 px-4 rounded mx-2 my-5 m-auto">
+            <div className='m-auto flex items-center justify-center'>
+                <a href="https://www.hkf.ind.in/">  <button className="bg-rose-300 hover:bg-rose-500 text-[10px] text-white  p-1 rounded mx-2 my-5 m-auto">
                     Ishwar Sankalpa provides vocational education to its students and sells products made by them. Support them by donating
                 </button></a>
             </div>

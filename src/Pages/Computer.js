@@ -35,7 +35,7 @@ const CoursePage = () => {
             />
 
             <div className='m-auto flex items-center justify-center'>
-                <a href="https://www.hkf.ind.in/">  <button className="bg-rose-300 hover:bg-rose-500 text-xs text-white  py-2 px-4 rounded mx-2 my-5 m-auto">
+                <a href="https://www.hkf.ind.in/"> <button className="bg-rose-300 hover:bg-rose-500 text-[10px] text-white  p-1 rounded mx-2 my-5 m-auto">
                     Unmish has computer training courses for special children. Support them by donating"
                     Hope foundation provides stitching courses to underprivileged women. help them by donating
                 </button></a>
