@@ -1,17 +1,17 @@
 import React from 'react'
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Ngo1 from './img/ngo1.jpg'
-import Ngo2 from './img/ngo2.jpg'
-import Ngo3 from './img/ngo3.jpg'
-import Ngo4 from './img/ngo4.jpg'
-import Ngo5 from './img/ngo5.jpg'
-import Ngo6 from './img/ngo6.jpg'
-import Ngo7 from './img/ngo7.jpg'
-import Ngo8 from './img/ngo8.jpg'
-import Ngo9 from './img/ngo9.jpg'
-import Ngo10 from './img/ngo10.jpg'
-import Ngo11 from './img/ngo11.jpg'
+import Ngo1 from './img/ngo1.webp'
+import Ngo2 from './img/ngo2.webp'
+import Ngo3 from './img/ngo3.webp'
+import Ngo4 from './img/ngo4.webp'
+import Ngo5 from './img/ngo5.webp'
+import Ngo6 from './img/ngo6.webp'
+import Ngo7 from './img/ngo7.webp'
+import Ngo8 from './img/ngo8.webp'
+import Ngo9 from './img/ngo9.webp'
+import Ngo10 from './img/ngo10.webp'
+import Ngo11 from './img/ngo11.webp'
 function Coursel() {
     return (
         <div >

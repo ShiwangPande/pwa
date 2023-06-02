@@ -1,14 +1,14 @@
 import React from 'react'
-import course1 from "./img/course1.jpg"
-import course2 from "./img/course2.png"
-import course3 from "./img/course3.png"
-import course4 from "./img/Course4.png"
-import cup from "./img/cup.png"
-import excel from "./img/excel.jpg"
-import photo from "./img/photo.jpg"
-import makeup from "./img/makeup.jpg"
-import stiching from "./img/stiching.jpg"
-import mug from "./img/mug.jpg"
+import course1 from "./img/course1.webp"
+import course2 from "./img/course2.webp"
+import course3 from "./img/course3.webp"
+import course4 from "./img/Course4.webp"
+import cup from "./img/cup.webp"
+import excel from "./img/excel.webp"
+import photo from "./img/photo.webp"
+import makeup from "./img/makeup.webp"
+import stiching from "./img/stiching.webp"
+import mug from "./img/mug.webp"
 import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 function Home() {
 

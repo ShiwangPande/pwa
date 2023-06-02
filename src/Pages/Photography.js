@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import photo from "./img/photo.jpg"
+import photo from "./img/photo.webp"
 import "./mug.css"
 import Confetti from 'react-confetti';
-import cele from "./img/firework.png"
+import cele from "./img/firework.webp"
 import ReactPlayer from 'react-player';
 const CoursePage = () => {
     const [videoCompleted, setVideoCompleted] = useState(false);

@@ -1,6 +1,5 @@
 import React from "react";
-import profile from "./img/profile.jpg";
-import nogo9 from "./img/ngo9.jpg";
+import nogo9 from "./img/ngo9.webp";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import { Card, Col, Text } from "@nextui-org/react";
 

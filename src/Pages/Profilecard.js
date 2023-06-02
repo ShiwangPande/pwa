@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./img/profile.jpg";
+import profile from "./img/profile.webp";
 import { Modal, useModal, Button, Image } from "@nextui-org/react";
 import { Card, Col, Text } from "@nextui-org/react";
 export default function Profilecard() {
