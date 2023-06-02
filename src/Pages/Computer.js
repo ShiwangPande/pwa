@@ -37,6 +37,19 @@ const CoursePage = () => {
                     />
 
                 </div>
+
+
+                <div className='flex flex-col gap-2'>
+                    <p className='mx-5 text-l font-bold my-5 underline'>Basics of Excel video 2: "Navigating Microsoft Excel"</p>
+                    <ReactPlayer className='course_video '
+                        width="90%"
+                        height="30rem"
+                        url="https://www.youtube.com/embed/zu0494Exe6c"
+                        controls
+
+                    />
+                </div>
+
                 <div className='flex flex-col gap-2'>
                     <p className='mx-5 text-l font-bold my-5 underline'>Basics of Excel video 3: "Microsoft Excel & Statistics</p>
                     <ReactPlayer className='course_video'
@@ -48,19 +61,17 @@ const CoursePage = () => {
                     />
 
                 </div>
-
-
                 <div className='flex flex-col gap-2'>
-                    <p className='mx-5 text-l font-bold my-5 underline'>Basics of Excel video 2: "Navigating Microsoft Excel"</p>
-                    <ReactPlayer className='course_video '
+                    <p className='mx-5 text-l font-bold my-5 underline'>Basics of Excel video 4: "Accessorizing Microsoft Excel"</p>
+                    <ReactPlayer className='course_video'
                         width="90%"
                         height="30rem"
-                        url="https://www.youtube.com/embed/zu0494Exe6c"
+                        url="https://www.youtube.com/embed/7XDEmq0CW1M"
                         controls
                         onEnded={handleVideoComplete}
                     />
-                </div>
 
+                </div>
 
 
 
