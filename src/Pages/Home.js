@@ -295,7 +295,7 @@ function Home() {
 
                   </Text> */}
                     <Text color="white" size={15} style={{ fontWeight: "bold", marginLeft: "5px" }}>
-                      basics of makeup
+                      Basics of makeup
                     </Text>
                   </Col>
                 </Row>
